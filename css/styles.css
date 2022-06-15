@@ -1,0 +1,143 @@
+:root {
+    --primery-text-color: #212121;
+    --title-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --hero-background: #2F303A;
+    --rgba-footer: rgba(255, 255, 255, 0.6);
+    --portfolio-color-button: #F5F4FA;
+}
+
+
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--primery-text-color);
+    background-color: var(--primary-background-color);
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:none;
+}
+.list{
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+  }
+    /* Шапка */
+
+    .logo{
+        color:var(--title-text-color) ;
+        text-decoration: none;
+        font-family: "Raleway",sans-serif;
+    }
+
+.span-logo{
+    color:var(--accent-color);
+}
+
+/* навигация */
+.stydio-nav{
+    color: #2196F3;
+}
+
+a{
+    color:#212121;
+
+}
+
+.contact-mail{
+    color: rgba(33, 150, 243, 1)
+}
+.contact-tel{
+    color: rgba(117, 117, 117, 1);
+}
+
+/* maine */
+.main-header{
+    background-color:#2F303A
+}
+
+.bunner-header{
+    color: #FFFFFF;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.button:focus,
+.button:hover{
+    color: #000000;
+}
+
+/* section class="description" */
+
+.list-text,.title{
+    color: #212121;
+}
+
+.list-text,.text{
+color:#757575 ;
+}
+
+/* описание в картинках */
+
+.doing{
+    color: #212121;
+}
+
+/* our team */
+
+.section-team{
+   background-color:#F5F4FA;
+}
+
+.liast-team .text{
+   color: #757575;
+}
+
+/* кнопки стиль портфолио  */
+
+.link-button{
+    background-color: #2196F3;
+}
+ 
+.link-button:hover,
+.link-button:focus{
+    color: #ffffff;
+    background-color:var(--accent-color);
+}
+
+/* портфолио maine */
+
+.projects-title{
+    color: #212121;
+    font-weight: 700;
+}
+
+
+.team-projects .projects-text{
+    color: #757575;
+}
+
+/* footer */
+
+.footer{
+    background-color: #2F303A;
+}
+
+
+
+
+
+
+/* первичный цвет #212121*/
+/* вторичный цвет #757575 */
+/* выделяющийся цвет #2196F3 */

@@ -5,62 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="page-header">
-      <nav>
-        <a class="logo" href="/"><p>WebStudio</p></a>
-        <ul class="site-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакти</a></li>
+    <header class="header">
+      <nav class="header-nav"> 
+        <a class="logo" href="/"><p><span class="span-logo">Web</span>Studio</p></a>
+        <ul class="menu-list">
+          <li><a class="stydio-nav" href="">Студия</a></li>
+          <li><a  href="">Портфолио</a></li>
+          <li><a  href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list-nav list">
+        <li><a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contact-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>
+      <section class="main-header">
+        <h1 class="bunner-header">
           Эффективные решения<br/>
           для вашего бизнеса
         </h1>
         
-          <button type="button">Заказать услугу</button>
+          <button class="button" type="button">Заказать услугу</button>
         
       </section>
-      <section>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+      <section class="description" >
+        <ul class="list-text" > 
+          <li class="list-item" >
+            <h3 class="title"> Внимание к деталям</h3>
+            <p class="text"> 
               Идейные соображения, а также начало повседневной работы<br />
               по формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="title" >Пунктуальность</h3>
+            <p class="text" >
               Задача организации, в особенности же рамки и место обучения
               кадров<br />
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="title" >Планирование</h3>
+            <p class="text" >
               Равным образом консультация с широким активом в значительной<br />
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="title" >Современные технологии</h3>
+            <p class="text" >
               Значимость этих проблем настолько очевидна, что реализация
               плановых<br />
               заданий.
@@ -68,10 +72,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-work" >
         <!--Описание в картинках-->
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="doing" >Чем мы занимаемся</h2>
+        <ul class="list-work">
           <li>
             <img
               src="./images/1optimized.jpeg"
@@ -95,18 +99,17 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-team">
         <!--Команда-->
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="our-team">Наша команда</h2>
+        <ul class="liast-team">
           <li>
             <img
               src="./images/1(2)img.jpeg"
               alt="Product Designer"
-              width="270"
-            />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+              width="270"/> 
+            <h3 class="name-team" >Игорь Демьяненко</h3>
+            <p class="text" >Product Designer</p>
           </li>
           <li>
             <img
@@ -114,34 +117,34 @@
               alt="Frontend Developer"
               width="270"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-team" >Ольга Репина</h3>
+            <p class="text" >Frontend Developer</p>
           </li>
           <li>
             <img src="./images/teamcard3.jpeg" alt="Marketing" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="name-team" >Николай Тарасов</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <img src="./images/teamcard4.jpeg" alt="UI Designer" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="name-team">Михаил Ермаков</h3>
+            <p class="text" >UI Designer</p>
           </li>
         </ul>
-      </section>
+      </section> 
     </main>
-    <footer>
+    <footer class="footer">
       <!--Подвал-->
-      <a href="/"><span>Web</span>Studio</a> 
-      <address>
-        <ul>
+      <a class="logo" href="/"><p><span class="span-logo">Web</span>Studio</p></a>
+      <address class="address">
+        <ul class="address-footer">
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/PkSaAEfSqPYUskL79">
-              <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="link" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/PkSaAEfSqPYUskL79">
+              <p class="adress-text">г. Киев, пр-т Леси Украинки, 26</p>
             </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+380991111111</a></li>
+          <li><a class="contact-mail" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="сontact-tel" href="tel:+380991111111">+380991111111</a></li>
         </ul>
       </address>
     </footer>
