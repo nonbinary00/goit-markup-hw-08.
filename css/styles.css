@@ -12,132 +12,268 @@
 
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--primery-text-color);
     background-color: var(--primary-background-color);
 }
-a{
+
+
+
+.list {
+    list-style: none;
+}
+
+.link {
     text-decoration: none;
 }
 
-li{
-    list-style:none;
-}
-.list{
-    text-decoration: none;
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-button {
+.button {
     cursor: pointer;
   }
-    /* Шапка */
+    /* логотип  logo */
 
-    .logo{
-        color:var(--title-text-color) ;
-        text-decoration: none;
-        font-family: "Raleway",sans-serif;
+    .logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+    
+        color: var(--accent-color);
+    }
+    
+    .logo-dark {
+        color: var(--primery-text-color);
+    }
+    
+    .logo-light {
+        color: var(--primary-background-color);
     }
 
-.span-logo{
-    color:var(--accent-color);
-}
+        /* Шапка */
 
-/* навигация */
-.stydio-nav{
-    color: #2196F3;
-}
+    .menu-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
-a{
-    color:#212121;
+    }
+    
+    .menu-link:hover,
+    .menu-link:focus {
+        color: var(--accent-color)
+    }
+    
+    .menu-link {
+        color: var(--primery-text-color)
+    }
+    
+    .mail-header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+    }
+    
+    .mail-header:hover,
+    .mail-header:focus {
+        color: var(--accent-color)
+    }
+    
+    .phone-number-header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+    }
+    
+    .phone-number-header:hover,
+    .phone-number-header:focus {
+        color: var(--accent-color);
+    }
+   
 
-}
-
-.contact-mail{
-    color: rgba(33, 150, 243, 1)
-}
-.contact-tel{
-    color: rgba(117, 117, 117, 1);
-}
-
-/* maine */
-.main-header{
+/* maine hero */
+.hero{
     background-color:#2F303A
 }
 
-.bunner-header{
-    color: #FFFFFF;
+.hero-tite {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
 }
 
-.button{
-    color: #FFFFFF;
-    background-color: #2196F3;
+
+/* botton */
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    cursor: pointer;
 }
-.button:focus,
-.button:hover{
-    color: #000000;
+
+.hero-button:hover,
+.hero-button:focus {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-background-color);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* section class="description" */
-
-.list-text,.title{
-    color: #212121;
+.specialization-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.list-text,.text{
-color:#757575 ;
-}
+.specialization-text {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 
-/* описание в картинках */
-
-.doing{
-    color: #212121;
+    color: var(--text-color);
 }
 
 /* our team */
 
-.section-team{
-   background-color:#F5F4FA;
+.our-team {
+    background-color: var(--portfolio-color-button);
 }
 
-.liast-team .text{
-   color: #757575;
+.our-team-item {
+    background: var(--primary-background-color)
 }
 
-/* кнопки стиль портфолио  */
-
-.link-button{
-    background-color: #2196F3;
-}
- 
-.link-button:hover,
-.link-button:focus{
-    color: #ffffff;
-    background-color:var(--accent-color);
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
-/* портфолио maine */
+.our-team-text {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 
-.projects-title{
-    color: #212121;
-    font-weight: 700;
-}
-
-
-.team-projects .projects-text{
-    color: #757575;
+    color: var(--text-color);
 }
 
 /* footer */
 
-.footer{
-    background-color: #2F303A;
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.contact-link {
+    color: var(--primary-background-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color)
+}
+
+/*MAIL*/
+
+.mail-footer,
+.phone-number-footer {
+    color: var(--rgba-footer);
+}
+
+.phone-number-footer:hover,
+.phone-number-footer:focus,
+.mail-footer:hover,
+.mail-footer:focus {
+    color: var(--accent-color)
+}
+
+/* backgroung */
+
+.footer {
+    background: var(--hero-background);
+}
+
+.header {
+    background: var(--primary-background-color);
+}
+
+.our-team-item {
+    background: var(--primary-background-color);
 }
 
 
 
+.button-categories{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 
+    background: var(--portfolio-color-button);
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+.button-categories:hover,
+.button-categories:focus{
+    background: var(--accent-color);
+    color: var(--primary-background-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px
+}
 
-/* первичный цвет #212121*/
-/* вторичный цвет #757575 */
-/* выделяющийся цвет #2196F3 */
+.portfolio-item {
+    background: var(--primary-background-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
