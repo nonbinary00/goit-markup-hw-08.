@@ -15,7 +15,8 @@
              <!--Шапка сайта-->
   </head>
     <header class="header">
-      <nav class="header-nav"> 
+      <div class="container header-container">
+      <nav class="navigation"> 
         <a href="./index.html" lang="en" class="logo link">Web<span class="logo-dark">Studio</span></a>
           <ul class="menu list">
             <li class="menu-item">
@@ -36,32 +37,38 @@
                    <li class="contact-item">
                     <a href="tel:+380961111111" class="phone-number-header link"<a href="tel:+380961111111" class="phone-number-header link">+38 096 111 11 11</a>
                   </li>
-                </ul>              
+                </ul> 
+              </div>             
               </header>           
                         
       
                <!--MAINE-->
     <main class="portfolio-main">
        <section class="section">
+         <div class="container">
             <ul class="list-categories list">
-              <li><button type="button" class="button-categories">Все</button></li>
-              <li>
+              <li class="categories-item">
+                <button type="button" class="button-categories">Все</button>
+              </li>
+              <li class="categories-item">
                 <button type="button" class="button-categories">Веб-сайты</button>
               </li>
-              <li>
+              <li class="categories-item">
                 <button type="button" class="button-categories">Приложения</button>
               </li>
-              <li>
+              <li class="categories-item">
                 <button type="button" class="button-categories">Дизайн</button>
               </li>
-              <li>
+              <li class="categories-item">
                 <button type="button" class="button-categories">Маркетинг</button>
               </li>
             </ul>
+          </div>
     </section>
-  </div>
+  
             <!--MAINE PROJECTS-->
     <section class="section">
+      <div class="container">
         <h1 hidden>Проекты</h1>
         <ul class="portfolio-list list">
           <li class="portfolio-item">
@@ -70,8 +77,10 @@
                src="./images-2/portfolio1-min.jpeg"
                alt="Технокряк"
                width="370">
+          <div class="portfolio-card">
             <h2 class="portfolio-title">Технокряк</h2>
             <p classs="portfolio-text">Веб-сайт</p>
+          </div>
             </a>
           </li>
               <li class="portfolio-item"> 
@@ -80,8 +89,10 @@
                 src="./images-2/portfolio2-min.jpeg"
                 alt="Постер New Orlean vs Golden Star"
                 width="370"/>
+            <div class="portfolio-card">
               <h2 class="portfolio-title">Постер New Orlean vs Golden Sta</h2>
               <p classs="portfolio-text">Дизайн</p>
+            </div>
             </a>
               </li>
               <li class="portfolio-item">
@@ -90,8 +101,10 @@
                 src="./images-2/portfolio3-min.jpeg" 
                 alt="Ресторан Seafood"
                 width="370"/>
+            <div class="portfolio-card">
               <h2 class="portfolio-title">Ресторан Seafood</h2>
               <p classs="portfolio-text">Приложение</p>
+            </div>
               </a>
               </li>
               <li class="portfolio-item">
@@ -100,8 +113,10 @@
                 src="./images-2/portfolio4-min.jpeg" 
                 alt="Проект Prime"
                 width="370"/>
+            <div class="portfolio-card">
               <h2 class="portfolio-title" >Проект Prime</h2>
               <p classs="portfolio-text" >Маркетинг</p>
+            </div>
               </a>
               </li>
               <li class="portfolio-item">
@@ -110,8 +125,10 @@
                 src="./images-2/portfolio5-min-min.jpeg" 
                 alt="Проект Boxes"
                 width="370"/>
+            <div class="portfolio-card">
               <h2 class="portfolio-title" >Проект Boxes</h2>
               <p classs="portfolio-text" >Приложение</p>
+            </div>
               </a>
               </li>
               <li class="portfolio-item">
@@ -120,8 +137,10 @@
                 src="./images-2/portfolio6-min-min.jpeg" 
                 alt="Inspiration has no Borders"
                 width="370"/>
+            <div class="portfolio-card">
               <h2 class="portfolio-title" >Inspiration has no Borders</h2>
               <p classs="portfolio-text" >Веб-сайт</p>
+            </div>
               </a>
               </li>
               <li>
@@ -130,8 +149,10 @@
                 src="./images-2/portfolio7-min.jpeg" 
                 alt="Издание Limited Edition"
                 width="370">
+            <div class="portfolio-card">
               <h2 class="portfolio-title" >Издание Limited Edition</h2>
               <p classs="portfolio-text" >Дизайн</p>
+            </div>
               </a>
               </li>
               <li>
@@ -140,8 +161,10 @@
                 src="./images-2/portfolio8-min.jpeg" 
                 alt="Проект LAB"
                 width="370">
+            <div class="portfolio-card">
               <h2 class="portfolio-title" >Проект LAB</h2>
               <p classs="portfolio-text" >Маркетинг</p>
+            </div>
               </a>
               </li>
               <li class="portfolio-item">
@@ -150,15 +173,19 @@
                 src="./images-2/portfolio9-min.jpeg" 
                 alt="Growing Business"
                 width="370"/>
+            <div class="portfolio-card">
               <h2 class="portfolio-title" >Growing Business</h2>
               <p classs="portfolio-text" >Приложение</p>
-              </a>
-              </li>
+            </div>
+            </a>
+          </li>
         </ul>
+      </div>
     </section>
   </main>
   <!--ПодваL-->
   <footer class="footer ">
+    <div class="container container-footer">
     <a href="/" lang="en" class="logo link">Web<span class="logo-light">Studio</span></a>
       <address class="address">
       <ul class="contact-list list">
@@ -177,8 +204,9 @@
         <li class="contact-footer">
           <a href="tel:+380961111111" class="phone-number-footer link"
             >+38 096 111 11 11</a>
-        </li>
-      </ul>
+         </li>
+         </ul>
+       </div>
       </address>
     </footer>
   </body>
