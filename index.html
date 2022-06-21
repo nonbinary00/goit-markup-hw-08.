@@ -14,7 +14,7 @@
   
   <!--Шапка сайта-->
   <header class="header">
-    <div class="header header-container">
+    <div class="container header-container">
      <nav class="navigations"> 
      <a href="./index.html" lang="en" class="logo link"
        >Web<span class="logo-dark">Studio</span></a>
@@ -38,7 +38,7 @@
   </ul> 
 </div>
   </header>
-                <!--MAIN-->
+                <!--MAIN-->           
   <main class="studio-main">
     <section class="hero">
       <div class="container">
@@ -47,7 +47,7 @@
         <div>
       </section>
 <!-- Особенности -->
-  <section class="specialization">
+  <section class="specialization section ">
     <div class="container">
     <h2 hidden>Наши особенности</h2>
       <ul class="specialization-list list">
@@ -79,9 +79,10 @@
           </li>
         </ul>
       </div>
-      </section>
+  </section>
+      
       <!-- Чем мы занимаемся -->
-      <section class="our-work">
+      <section class="our-work section">
         <div class="container">
         <h2 class="our-work-title title">Чем мы занимаемся</h2>
         <ul class="our-work-list list">
@@ -107,10 +108,10 @@
           </li>
         </ul>
       </div>
-      </section>
+    </section>
 
       <!-- Наша команда -->
-      <section class="our-team">
+      <section class="our-team section">
         <div class="container">
         <h2 class="our-team-title title">Наша команда</h2>
         <ul class="our-team-list list">
@@ -120,8 +121,10 @@
               alt="Игорь Демьяненко"
               width="270"
               height="260"/>
-        <h3 class="our-team-name">Игорь Демьяненко</h3>
-          <p lang="en" class="our-team-text">Product Designer</p>
+          <div class="our-team-card">
+            <h3 class="our-team-name">Игорь Демьяненко</h3>
+            <p lang="en" class="our-team-text">Product Designer</p>
+          </div>
           </li>
           <li class="our-team-item">
             <img
@@ -129,8 +132,10 @@
               alt="Ольга Репина"
               width="270"
               height="260"/>
-        <h3 class="our-team-name">Ольга Репина</h3>
-          <p lang="en" class="our-team-text">Frontend Developer</p>
+            <div class="our-team-card">
+              <h3 class="our-team-name">Ольга Репина</h3>
+              <p lang="en" class="our-team-text">Frontend Developer</p>
+             </div>
           </li>
           <li class="our-team-item">
             <img
@@ -138,8 +143,10 @@
               alt="Николай Тарасов"
               width="270"
               height="260"/>
-        <h3 class="our-team-name">Николай Тарасов</h3>
-          <p lang="en" class="our-team-text">Marketing</p>
+            <div class="our-team-card">
+              <h3 class="our-team-name">Николай Тарасов</h3>
+              <p lang="en" class="our-team-text">Marketing</p>
+            </div>
           </li>
           <li class="our-team-item">
             <img
@@ -147,20 +154,22 @@
               alt="Михаил Ермаков"
               width="270"
               height="260"/>
-            <h3 class="our-team-name">Михаил Ермаков</h3>
-            <p lang="en" class="our-team-text">UI Designer</p>
+              <div class="our-team-card">
+                <h3 class="our-team-name">Михаил Ермаков</h3>
+                <p lang="en" class="our-team-text">UI Designer</p>
+              </div> 
           </li>
         </ul>
       </div>
-      </section>
+   </section>
     </main>
     <footer class="footer">
       <div class="container container-footer">
       <!--Подвал-->
-      <a href="/" lang="en" class="logo link">Web<span class="logo-light">Studio</span></a>
+      <a href="/" lang="en" class="logo-footer link">Web<span class="logo-light">Studio</span></a>
       <address class="address">
-      <ul class="contact-list list">
-        <li class="contact-list-item">
+      <ul class="contact-list-footer list">
+        <li class="contact-list-footer-item">
           <a
             href="https://goo.gl/maps/c3DatfC8NeGpE9Bo7"
             target="_blank"
@@ -176,8 +185,8 @@
           <a href="tel:+380961111111" class="phone-number-footer link"
             >+38 096 111 11 11</a>
         </li>
-      </ul>
-    </div>
+        </ul>
+       </div>
       </address>
     </footer>
   </body>
