@@ -7,6 +7,8 @@
     --hero-background: #2F303A;
     --rgba-footer: rgba(255, 255, 255, 0.6);
     --portfolio-color-button: #F5F4FA;
+    --background-color: #C4C4C4;
+    --social-icon-color: #AFB1B8;
 }
 
 
@@ -189,6 +191,9 @@ img {
     height: 600px;
     left: 0px;
     top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-tite {
@@ -345,12 +350,50 @@ img {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-
+    margin-bottom: 16px;
     color: var(--text-color);
 }
 
 .our-team {
     background-color: var(--portfolio-color-button);
+}
+
+/* иконки на соц сети */
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+.social-list-icon {
+    fill: var(--social-icon-color)
+}
+
+.social-list-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: var(--primary-background-color);
+}
+
+.social-list-icon {
+    fill: var(--social-icon-color)
 }
 
 
@@ -359,6 +402,18 @@ img {
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
+}
+
+.container-footer{
+    display: flex;
+    align-items: baseline;
+}
+
+.navigation-footer {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
 }
 
 .logo-footer {
@@ -385,7 +440,6 @@ img {
     display: flex;
     padding: 0;
     margin-left: auto;
-    
 }
 
 
@@ -429,6 +483,50 @@ img {
 .mail-footer:focus {
     color: var(--accent-color)
 }
+
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social-text {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--accent-color)
+}
+
+.footer-social-icon {
+    fill: var(--primary-background-color);
+}
+
+
 
 /* backgroung */
 
