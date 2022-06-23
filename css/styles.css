@@ -149,8 +149,15 @@ img {
     .menu-link {
         color: var(--primery-text-color)
     }
+
+    .maile-icone{
+        margin-right: 10px;
+        fill: var(--text-color);
+     }
     
     .mail-header {
+        display: flex;
+        align-items: center;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -162,8 +169,16 @@ img {
     .mail-header:focus {
         color: var(--accent-color)
     }
+
+
+    .phone-icone{
+        margin-right: 10px;
+        fill: var(--text-color);
+    }
     
     .phone-number-header {
+        display:flex;
+        align-items: center;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -175,6 +190,8 @@ img {
     .phone-number-header:focus {
         color: var(--accent-color);
     }
+
+
    
 
 /* maine hero */
@@ -261,6 +278,20 @@ img {
 .specialization-item {
     flex-basis: calc((100% - 90px) / 4);
 }
+
+.specialization-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background: var(--portfolio-color-button);
+    margin-bottom: 30px;
+}
+
+
+
 .specialization-list {
     display: flex;
     
@@ -358,6 +389,46 @@ img {
     background-color: var(--portfolio-color-button);
 }
 
+/* our client */
+
+.our-clients-item {
+    flex-basis: calc((100% - 150px) / 6);
+}
+
+.our-clients-icon {
+    fill: var(--social-icon-color)
+}
+
+.our-clients-list {
+    display: flex;
+}
+
+.our-clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.our-clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-clients-link:hover,
+.our-clients-link:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.our-clients-link:hover .our-clients-icon,
+.our-clients-link:focus .our-clients-icon {
+    fill: var(--accent-color);
+}
+
+
+
 /* иконки на соц сети */
 
 .social-list {
@@ -442,7 +513,9 @@ img {
     margin-left: auto;
 }
 
-
+.contact-list-footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 .contact-list-item:not(:last-child) {
     margin-bottom: 9px;
