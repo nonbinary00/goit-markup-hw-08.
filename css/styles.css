@@ -360,7 +360,7 @@ img {
 
 /* our work */
 
-.our-work {
+/* .our-work {
   padding-top: 0;
 }
 
@@ -396,11 +396,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* our team */
 
-.our-team {
+/* .our-team {
   background-color: var(--portfolio-color-button);
 }
 
@@ -466,11 +466,11 @@ img {
 
 .our-team {
   background-color: var(--portfolio-color-button);
-}
+} */
 
 /* иконки на соц сети */
 
-.social-list {
+/* .social-list {
   display: flex;
   justify-content: center;
 }
@@ -507,11 +507,11 @@ img {
 
 .social-list__icon {
   fill: var(--social-icon-color);
-}
+} */
 
 /* our client */
 
-.our-clients__item {
+/* .our-clients__item {
   flex-basis: calc((100% - 150px) / 6);
 }
 
@@ -547,10 +547,10 @@ img {
 .our-clients__link:hover .our-clients__icon,
 .our-clients__link:focus .our-clients__icon {
   fill: var(--accent-color);
-}
+} */
 
 /* footer */
-
+/* 
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -614,7 +614,7 @@ img {
   color: var(--accent-color);
 }
 
-/*MAIL FOOTER*/
+/*MAIL FOOTER*
 
 .footer__contact-list {
   display: flex;
@@ -678,9 +678,9 @@ img {
 
 .footer-social__icon {
   fill: var(--primary-background-color);
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -692,13 +692,13 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  /* position: relative;  */
+  /* position: relative;  
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.subscribe__text {
+/* .subscribe__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -710,7 +710,7 @@ img {
 
 .subscribe {
   margin-left: 93px;
-  /* margin-right: 215px; */
+
 }
 
 .subscribe__mail {
@@ -778,11 +778,11 @@ img {
   letter-spacing: 0.06em;
   color: var(--primary-background-color);
   margin-right: 10px;
-}
+} */
 
 /* MODAL BUTTON */
 
-.modal {
+/* .modal {
   position: absolute;
   width: 528px;
   height: 581px;
@@ -884,7 +884,6 @@ img {
 
 .modal__wrapper {
   position: relative;
-  /* display: block; */
 }
 
 .modal__input_icon {
@@ -980,7 +979,7 @@ img {
 .modal__button:hover,
 .modal__button:focus {
   background-color: #188ce8;
-}
+} */
 
 /* backgroung */
 

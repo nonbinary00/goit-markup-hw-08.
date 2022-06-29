@@ -1,5 +1,6 @@
 @import'./utils/variables';
 @import'./utils/visually-hidden';
+
 @import'./base/common';
 @import'./base/container';
 @import'./base/section';
@@ -10,3 +11,8 @@
 
 @import'./layout/hero';
 @import'./layout/specializatio';
+@import'./layout/_our-work';
+@import'./layout/our-team';
+@import'./layout/our-clients';
+@import'./layout/footer';
+@import'./components/modal';
