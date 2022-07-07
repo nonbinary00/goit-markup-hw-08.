@@ -351,20 +351,22 @@ img {
   }
 }
 
-.specialization__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
 .specialization__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+
+.specialization__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: var(--portfolio-color-button);
+  margin-bottom: 30px;
 }
 
 .specialization__item:not(:last-child) {
